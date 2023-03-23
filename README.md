@@ -7,7 +7,9 @@ github可能是把存放calender的table修改了，所以原项目中的正则�
 ## 我做了些什么
 就是重新写了匹配的方式，不能保证以后github再改它不会失效。
 ## 使用方法
+前提：你大概率得翻墙才能有用 \
 直接在网址上输入: \
  ```https://my-git-calender-api.vercel.app/api/?<username>``` \
  例如: \
 ```https://my-git-calender-api.vercel.app/api/?NinoNeumann```
+
