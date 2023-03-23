@@ -42,12 +42,3 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(json.dumps(data).encode('utf-8'))
         return
-
-def main():
-    name = "NinoNeumann"
-    data = getdata(name)
-    print(data)
-    pass
-
-if __name__=="__main__":
-    main()
